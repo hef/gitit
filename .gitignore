@@ -7,4 +7,4 @@ full
 http.log
 twistd.log
 twistd.pid
-
+state.sqlite
