@@ -8,3 +8,4 @@ http.log
 twistd.log
 twistd.pid
 state.sqlite
+jobs
