@@ -7,7 +7,7 @@
 # The 'reconfig' target will tell a buildmaster to reload its config file.
 
 start:
-	twistd --no_save -y buildbot.tac
+	./bin/twistd --no_save -y buildbot.tac
 
 stop:
 	if [ -e twistd.pid ]; \

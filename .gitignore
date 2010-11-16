@@ -1,4 +1,10 @@
+#virtualenv
 bin
 include
 lib
+#buildmaster data
+full
+http.log
+twistd.log
+twistd.pid
 
