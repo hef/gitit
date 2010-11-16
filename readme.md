@@ -6,5 +6,5 @@ BuildMaster for GitIt
 Getting Started
 ---------------
 to run
-copy state.sqlite.dist to state.sqlite
-  ./bin/buildmaster start
+`cp state.sqlite.dist state.sqlite`
+`  ./bin/buildmaster start`
