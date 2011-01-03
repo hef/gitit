@@ -1,19 +1,41 @@
-How to build:
--------------
+Gitit
+=====
+gitit is a reasonable graphical interface to the git version control system.
 
-    git submodule init
-    git submodule update
+Runtime Dependencies
+====================
+
+Microsoft Windows
+-----------------
+[msysgit](http://code.google.com/p/msysgit/)
+
+
+## Arch
+     sudo pacman -Sy git
+
+## Ubuntu
+     sudo aptitude install git-core
+
+OS X
+----
+I recommend using [fink](http://www.finkproject.org/), [homebrew](http://mxcl.github.com/homebrew/) or [macports](http://www.macports.org/) to install git on OS X.
+
+
+All Platfroms:
+--------------
+After starting gitit the first time, go to Project > Configure and set the Git Path. The git path will probably be "/usr/bin/git" or "C:\msysgit\bin\git.exe"
+
+How to build:
+=============
+Install the [QT SDK](http://qt.nokia.com/products) for your platform
+
     qmake
     make
 
-Contact Us:
-----------
+Maintainer:
+===========
+hef <hef@pbrfrat.com>
+https://github.com/hef/gitit
 
-[mumble](mumble://acm.cs.uic.edu/gitit?version=1.2.0&title=UICACM)
 
-Depenedencies:
---------------
-libgit2, which is a git external.
 
-On windows, we are using a static build of libgit2.  automated building does not work yet.
-zlib was packaged with libgit2.a for windows, because zlib is a PITA to get on windows.
