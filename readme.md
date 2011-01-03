@@ -21,7 +21,7 @@ OS X
 I recommend using [fink](http://www.finkproject.org/), [homebrew](http://mxcl.github.com/homebrew/) or [macports](http://www.macports.org/) to install git on OS X.
 
 
-All Platfroms:
+All Platforms:
 --------------
 After starting gitit the first time, go to Project > Configure and set the Git Path. The git path will probably be "/usr/bin/git" or "C:\msysgit\bin\git.exe"
 
